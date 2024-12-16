@@ -1,0 +1,284 @@
+#app-section {
+    background-color: #fffbf7;
+  }
+  #app-container {
+    /* border: 2px solid red; */
+    width: 100%;
+    height: 450px;
+    max-width: 950px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+  }
+  #mobile-imge {
+    height: 100%;
+    width: 50%;
+    /* border: 2px solid blue; */
+  }
+  #mobile-imge img {
+    height: 100%;
+  }
+  #app-title h2 {
+    font-size: 44px;
+    color: #1c1c1c;
+    font-weight: 500;
+    margin-bottom: 15px;
+  }
+  #app-title p {
+    font-size: 16px;
+    color: #363636;
+    font-weight: 400;
+    margin-bottom: 25px;
+    line-height: 32px;
+  }
+  #radio-container {
+    /* border: 2px solid red; */
+    width: 50%;
+    justify-content: space-between;
+    margin-bottom: 25px;
+    /* padding: 10px; */
+    display: flex;
+  }
+  input[type="radio"] {
+    accent-color: #ef4f5f;
+    width: 16px;
+    height: 16px;
+    margin-right: 7px;
+  }
+  #email-input-container {
+    display: flex;
+    /* border: 1px solid black; */
+    gap: 10px;
+    margin-bottom: 25px;
+  }
+  #email-input-container #email-input {
+    padding: 12px 15px;
+    width: 100%;
+    border-radius: 6px;
+    font-size: 18px;
+    border: 1px solid rgb(207, 207, 207);
+    outline: none;
+  }
+  #email-input-container button {
+    width: 175px;
+    padding: 7px;
+    background-color: #ef4f5f;
+    border: none;
+    border-radius: 6px;
+    color: #fff;
+    font-size: 16px;
+  }
+  
+  #appinfo p {
+    font-size: 14px;
+    line-height: 21px;
+    color: #9c9c9c;
+    margin-bottom: 15px;
+  }
+  #app-imge {
+    display: flex;
+    /* border: 2px solid black; */
+    margin-bottom: 5px;
+    /* height: 40px; */
+  }
+  #app-imge img {
+    width: 137px;
+    /* margin-left: 10px; */
+    padding: 0px 20px 0px 0px;
+  }
+
+  #Explore-options {
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto 60px;
+    /* border: 2px solid red; */
+    /* background-color: #fff; */
+  }
+  #popular {
+    margin-top: 18px;
+  }
+  #Explore-options p {
+    font-size: 30px;
+    line-height: 40px;
+    color: #363636;
+    font-weight: 500;
+    margin-top: 50px;
+  }
+  #name-places {
+    border: 1px solid #e8e8e8;
+    background-color: #fff;
+    border-radius: 7px;
+    display: flex;
+    justify-content: space-between;
+    padding: 24px;
+    margin: 0px 0px 22px 0px;
+    /* gap: 10px; */
+  }
+  #names span {
+    /* background-color: #fff; */
+    font-size: 20px;
+    line-height: 26px;
+    color: #1c1c1c;
+    /* padding: 10px; */
+  }
+
+
+  footer {
+    background: #f8f8f8;
+    /* border: 1px solid red; */
+    height: 600px;
+    /* width: 80%; */
+    margin: auto;
+    /* margin-left: 100px; */
+    /* margin: 0 auto 60px; */
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto 60px;
+  }
+  .zomato {
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto 60px;
+  }
+  #zomato-img img {
+    /* border: 2px solid red; */
+    width: 80%;
+    /* margin-top: 5px; */
+    height: 100%;
+  }
+  #zomato-logo {
+    background: #f8f8f8;
+    /* border: 2px solid blue; */
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto 60px;
+  }
+  #main-india {
+    /* border: 1px solid grey; */
+    display: flex;
+    /* justify-content: space-between; */
+    /* margin-left: 1000px; */
+  }
+  #india img {
+    width: 30px;
+    height: 22px;
+    padding: 5px;
+    margin: 5px auto;
+    /* border: 2px solid red; */
+    /* margin: 0; */
+    /* padding: 8px; */
+    /* border-radius: none; */
+  }
+  #india img,
+  p,
+  i {
+    padding: 4px;
+  }
+  #india p,
+  i {
+    font-size: 18px;
+    /* padding: 5px; */
+    color: #1c1c1c;
+  }
+  #india {
+    height: 38px;
+    display: flex;
+    border: 1px solid #b5b5b5;
+    border-radius: 5px;
+    gap: 4px;
+    margin-right: 20px;
+  }
+  
+  #india i {
+    font-size: 14px;
+    /* padding-bottom: 5px; */
+  }
+  #glob {
+    border: 1px solid #b5b5b5;
+    border-radius: 5px;
+    display: flex;
+    height: 38px;
+  }
+  #glob i {
+    font-size: 14px;
+    margin: 5px;
+  }
+  #glob p {
+    padding: 5px;
+  }
+  /* #india p {
+    font-size: 18px;
+    padding: 5px; 
+  } */
+  
+  #footer-container {
+    background: #f8f8f8;
+    /* border: 2px solid red; */
+    /* height: 100%; */
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto 60px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .footer-column {
+    background: #f8f8f8;
+  
+    /* border: 2px solid black; */
+    position: relative;
+    /* margin-bottom: 20px; */
+    /* margin-top: 100px; */
+  }
+  
+  .footer-column h3 {
+    font-size: 14px;
+    letter-spacing: 2px;
+    /* margin-left: 20px; */
+    margin-bottom: 10px;
+  
+    /* font-weight: 500; */
+  }
+  
+  .footer-column ul {
+    list-style: none;
+    font-size: 14px;
+    line-height: 21px;
+    color: #1c1c1c;
+  }
+  
+  .footer-column ul li {
+    margin: 5px 0;
+  }
+  
+  .footer-column ul li {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .social-links img {
+    height: 40px;
+    margin: 5px 5px 0 0;
+  }
+  
+  .social-icons {
+    display: flex;
+    gap: 10px;
+    margin: 10px 0;
+  }
+  
+  .footer-bottom {
+    margin-top: 20px;
+    border-top: 1px solid #ddd;
+    padding-top: 10px;
+    text-align: center;
+    color: #777;
+  }
+  .footer-column img {
+    /* border: 2px solid red; */
+    display: flex;
+    margin-top: 20px;
+  }
